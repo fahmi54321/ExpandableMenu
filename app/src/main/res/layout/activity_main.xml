@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <me.anshulagarwal.expandablemenuoption.ExpandableMenuView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/expandable_menu"
+        app:bottom_drawable="@drawable/ic_contact"
+        app:top_drawable="@drawable/ic_location"
+        app:left_drawable="@drawable/ic_money"
+        app:right_drawable="@drawable/ic_phone"
+        app:menu_color="@color/teal_700"
+        app:menu_drawable="@drawable/ic_add"
+        app:menu_expanded_radius="@dimen/big_radius"
+        app:menu_radius="@dimen/small_radius"
+        ></me.anshulagarwal.expandablemenuoption.ExpandableMenuView>
+
+</LinearLayout>
